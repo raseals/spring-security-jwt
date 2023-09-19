@@ -1,0 +1,14 @@
+spring:
+  sql:
+    init:
+      mode: never
+
+  datasource:
+    url: jdbc:postgresql://192.168.2.34:5432/jwt_sec_db
+    username: secuser
+    password: qU5rN9xGjO73E8UQ4sT8
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
